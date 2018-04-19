@@ -6,7 +6,7 @@ export function addRecipe ({ day, recipe, meal }) {
     type: ADD_RECIPE,
     recipe,
     day,
-    meal
+    meal,
   }
 }
 
@@ -14,6 +14,6 @@ export function removeFromCalendar ({ day, meal }) {
   return {
     type: REMOVE_FROM_CALENDAR,
     day,
-    meal
+    meal,
   }
 }
